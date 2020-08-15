@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: 
+  domain: test-travisci.surge.sh
   project: ./build/
 
 on: 
